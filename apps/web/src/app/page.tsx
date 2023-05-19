@@ -1,11 +1,13 @@
 import { Header } from "components";
-import { AlertButton } from "@/components/AlertButton";
+import { LoginButton } from "@/components/LoginButton";
+import { LogoutButton } from "@/components/LogoutButton";
 
 export default function Page() {
   return (
     <>
       <Header text="Web" />
-      <AlertButton />
+      <LoginButton />
+      <LogoutButton />
     </>
   );
 }
