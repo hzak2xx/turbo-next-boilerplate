@@ -1,0 +1,7 @@
+{
+  "eslint.workingDirectories": ["apps", "packages"],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
